@@ -1,0 +1,50 @@
+
+body {
+    background-image: url(./currency1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.heading {
+    font-family: 'Pacifico', cursive;
+    margin: 35px auto 20px;
+    color: white;
+    text-shadow: 2px 2px 5px blue;
+}
+hr {
+    border-top: 2px solid rgb(199, 180, 180);
+    width: 100%;
+    margin-bottom: 55px;
+}
+.main {
+    width: 50vw;
+    margin: auto;
+    padding: 30px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+}
+@media (max-width: 768px) {
+    /* hr {
+        width: 60%;
+    } */
+    .main {
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .heading {
+        font-size: 60px;
+    }
+    /* hr {
+        width: 75%;
+    } */
+}
+#result {
+    font-family: 'Lobster', cursive;
+    margin: 20px auto;
+    font-size: x-large;
+    
+    }
